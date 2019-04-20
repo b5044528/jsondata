@@ -1,1 +1,50 @@
-
+{
+  "input": {
+    "text": "hello"
+  },
+  "intents": [
+    {
+      "confidence": 1.0,
+      "intent": "General_Greetings"
+    }
+  ],
+  "entities": [],
+  "context": {
+    "system": {
+      "initialized": true,
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 1.0,
+      "dialog_request_counter": 1.0,
+      "_node_output_map": {
+        "node_11_1555694005674": {
+          "0": [
+            0.0
+          ]
+        }
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    },
+    "conversation_id": "37e39ebf-5bc1-459d-b5ab-46622cf65ab7"
+  },
+  "output": {
+    "log_messages": [],
+    "text": [
+      "good evening"
+    ],
+    "generic": [
+      {
+        "response_type": "text",
+        "text": "good evening"
+      }
+    ],
+    "nodes_visited": [
+      "node_8_1555693863233",
+      "node_11_1555694005674"
+    ]
+  }
+}
